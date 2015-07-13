@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_Firebase 3
 #define COCOAPODS_VERSION_PATCH_Firebase 2
 
+// TextFieldEffects
+#define COCOAPODS_POD_AVAILABLE_TextFieldEffects
+#define COCOAPODS_VERSION_MAJOR_TextFieldEffects 0
+#define COCOAPODS_VERSION_MINOR_TextFieldEffects 4
+#define COCOAPODS_VERSION_PATCH_TextFieldEffects 0
+

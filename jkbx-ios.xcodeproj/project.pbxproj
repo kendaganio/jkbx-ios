@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A6979A31B53E714001E197F /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6979A21B53E714001E197F /* Track.swift */; };
+		6A920A3F1B5424D60086FFA0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A920A3E1B5424D60086FFA0 /* MainViewController.swift */; };
 		6ACDD4721B53A2C2009BADF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD4711B53A2C2009BADF7 /* AppDelegate.swift */; };
 		6ACDD4751B53A2C2009BADF7 /* jkbx_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD4731B53A2C2009BADF7 /* jkbx_ios.xcdatamodeld */; };
 		6ACDD47A1B53A2C2009BADF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDD4781B53A2C2009BADF7 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		00BA2CA8CFCDEB177AC36467 /* Pods_jkbx_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jkbx_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE31F90286FA202F3634E43 /* Pods-jkbx-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jkbx-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.release.xcconfig"; sourceTree = "<group>"; };
+		6A6979A21B53E714001E197F /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		6A920A3E1B5424D60086FFA0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6ACDD46C1B53A2C2009BADF7 /* jkbx-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jkbx-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACDD4701B53A2C2009BADF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ACDD4711B53A2C2009BADF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 				6ACDD4711B53A2C2009BADF7 /* AppDelegate.swift */,
 				6ACDD4941B53AB55009BADF7 /* HomeViewController.swift */,
 				6ACDD4961B53B077009BADF7 /* PlaylistIndexViewController.swift */,
+				6A920A3E1B5424D60086FFA0 /* MainViewController.swift */,
+				6A6979A21B53E714001E197F /* Track.swift */,
 				6ACDD4781B53A2C2009BADF7 /* Main.storyboard */,
 				6ACDD47B1B53A2C2009BADF7 /* Images.xcassets */,
 				6ACDD47D1B53A2C2009BADF7 /* LaunchScreen.xib */,
@@ -296,7 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ACDD4751B53A2C2009BADF7 /* jkbx_ios.xcdatamodeld in Sources */,
+				6A6979A31B53E714001E197F /* Track.swift in Sources */,
 				6ACDD4721B53A2C2009BADF7 /* AppDelegate.swift in Sources */,
+				6A920A3F1B5424D60086FFA0 /* MainViewController.swift in Sources */,
 				6ACDD4951B53AB55009BADF7 /* HomeViewController.swift in Sources */,
 				6ACDD4971B53B077009BADF7 /* PlaylistIndexViewController.swift in Sources */,
 			);

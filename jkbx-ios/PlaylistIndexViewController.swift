@@ -11,14 +11,22 @@ import UIKit
 class PlaylistIndexViewController: UIViewController {
 
     var playlistName: String = ""
-   
+    var tracks = [Track]()
+ 
     func onDataReceive(snapshot: AnyObject) -> Void {
+        println(snapshot)
         let data = snapshot as! Dictionary<String, AnyObject>
-        let tracks = data["tracks"] as! Dictionary<String, AnyObject>
-       
-        for track in tracks {
-            println(track)
+        if let tracks = data["tracks"] as? Dictionary<String, AnyObject> {
+            let sortedTracks = sorted(tracks) { $0.0 < $1.0 }
+            for (id, track) in sortedTracks {
+                let t = Track(id: id, title: track["title"] as! String, addedBy: track["addedBy"] as! String, thumbnail: track["img"] as! String)
+              
+                println(t.props())
+                self.tracks.append(t)
+            }
         }
+        
+
     }
     
     override func viewDidLoad() {
@@ -27,14 +35,12 @@ class PlaylistIndexViewController: UIViewController {
         
         let ref = Firebase(url: "https://jkbx.firebaseio.com/party/\(self.playlistName)")
         ref.observeEventType(.Value) { (snapshot) in
-//            println(snapshot.value)
             self.onDataReceive(snapshot.value)
         }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 

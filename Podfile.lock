@@ -1,10 +1,13 @@
 PODS:
   - Firebase (2.3.2)
+  - TextFieldEffects (0.4.0)
 
 DEPENDENCIES:
   - Firebase
+  - TextFieldEffects
 
 SPEC CHECKSUMS:
   Firebase: 02fbeacfe19970856c872321788194524f21ffed
+  TextFieldEffects: 757bb7871bb742d95e0782e85da923bbaf97660f
 
 COCOAPODS: 0.37.2
