@@ -13,15 +13,62 @@ class PlaylistIndexViewController: UIViewController, UITableViewDelegate, UITabl
 
     @IBOutlet weak var trackTableView: UITableView!
     var playlistName: String = ""
+    
+    // all tracks collection
+    var ref: Firebase?
     var tracks = [Track]()
+   
+    // now playing stuff
+    var nowPlaying: Track?
+    @IBOutlet weak var nowPlayingImage: UIImageView!
+    @IBOutlet weak var nowPlayingTitle: UILabel!
  
     @IBOutlet var addButton: MKButton!
     
+    @IBAction func onControlsPressed(sender: UIButton) {
+        let PAUSE_BUTTON = 1
+        let PLAY_BUTTON = 2
+        let NEXT_BUTTON = 3
+        
+        var action = ""
+        var controlsRef = self.ref?.childByAppendingPath("controls")
+        
+        switch(sender.tag) {
+        case PAUSE_BUTTON:
+            action = "pause"
+            break;
+        case PLAY_BUTTON:
+            action = "play"
+            break;
+        case NEXT_BUTTON:
+            action = "skip"
+            break;
+        default: break;
+        }
+        
+        var command = ["action": action, "time": Int(NSDate().timeIntervalSince1970)]
+        controlsRef?.setValue(command)
+    }
+    
     func onDataReceive(snapshot: AnyObject) -> Void {
         self.tracks = [Track]() // reset all tracks!
-        //let data = snapshot as! Dictionary<String, AnyObject>
-        if let tracks = snapshot as? Dictionary<String, AnyObject> {
-            let sortedTracks = sorted(tracks) { $0.0 < $1.0 }
+        let data = snapshot as! Dictionary<String, AnyObject>
+        if let tracks = data["tracks"] as? Dictionary<String, AnyObject> {
+            var sortedTracks = sorted(tracks) { $0.0 < $1.0 }
+       
+            // if first track is playing
+            if sortedTracks[0].1["playing"] as! Int == 1 {
+                let id = sortedTracks[0].0
+                let first: AnyObject = sortedTracks[0].1
+                sortedTracks.removeAtIndex(0)
+                
+                self.nowPlaying = Track(id: id, title: first["title"] as! String, addedBy: first["addedBy"] as! String, thumbnail: first["img"] as! String)
+                
+                nowPlayingImage.image = self.nowPlaying?.getImage()
+                nowPlayingTitle.text = self.nowPlaying?.title
+            } else {
+                nowPlayingTitle.text = "No track playing."
+            }
             
             for (id, track) in sortedTracks {
                 let t = Track(id: id, title: track["title"] as! String, addedBy: track["addedBy"] as! String, thumbnail: track["img"] as! String)
@@ -50,8 +97,8 @@ class PlaylistIndexViewController: UIViewController, UITableViewDelegate, UITabl
         addButton.layer.shadowColor = UIColor.blackColor().CGColor
         addButton.layer.shadowOffset = CGSize(width: 1.0, height: 3.5)
         
-        let ref = Firebase(url: "https://jkbx.firebaseio.com/party/\(self.playlistName)/tracks")
-        ref.observeEventType(.Value) { (snapshot) in
+        self.ref = Firebase(url: "https://jkbx.firebaseio.com/party/\(self.playlistName)")
+        self.ref?.observeEventType(.Value) { (snapshot) in
             self.onDataReceive(snapshot.value)
         }
     }

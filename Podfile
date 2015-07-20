@@ -7,6 +7,7 @@ target 'jkbx-ios' do
   pod 'Firebase'
   pod 'TextFieldEffects'
   pod 'MaterialKit'
+  pod 'SwiftyJSON'
 end
 
 target 'jkbx-iosTests' do

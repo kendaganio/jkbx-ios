@@ -7,324 +7,369 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004B629C764F5B9F03BF1D50 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE93B244FAAF82F1B90E38 /* MKLayer.swift */; };
-		094BB8CF49017D43935037BC /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0569F2F1032B6CF621424DA /* HoshiTextField.swift */; };
-		1EB26C0718AD9734E5860E8B /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6CBCB0A5E20C7CDA0808E /* TextFieldsEffects.swift */; };
-		398E03BB1766D90B3A915D9C /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5228E01423E30C8B92746 /* YokoTextField.swift */; };
-		49344D64FD5C61CD4E075348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19998163403457BBAAF1CB48 /* Foundation.framework */; };
-		4CF58EE055F45F2C47ED7746 /* Pods-jkbx-ios-MaterialKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CC811E84A29B69D34B3976 /* Pods-jkbx-ios-MaterialKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D372AEB3CDDF7D9846A7308 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F60FCF5C5AD4F9E5A2E04A1 /* JiroTextField.swift */; };
-		63DCDF3F19F04269F9391530 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE583951C11003FAB2151883 /* MadokaTextField.swift */; };
-		69507AA9AE967784CBB6D694 /* Pods-jkbx-ios-TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C16ACBB7C919F8EA91E037 /* Pods-jkbx-ios-TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C9638B83743E59ECCF1E970 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9B9B031C03874C5124FDD /* IsaoTextField.swift */; };
-		7B030E6F204305D493868D83 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43467DB6E683346D98A14627 /* MKTableViewCell.swift */; };
-		7C386211DE71D6767A3E0118 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87012D141AAA6D9DE969FAB4 /* MinoruTextField.swift */; };
-		865CA29F34EE51141C4A39BE /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCC60C3985C26B3F8F9BD1C /* MKImageView.swift */; };
-		8CB7B8E924495D5B0104A3F1 /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EEF56B7EC1A0AF16000A8 /* MKButton.swift */; };
-		8D46C6C98713983EBE758572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19998163403457BBAAF1CB48 /* Foundation.framework */; };
-		A5C6E1B4E88C087A5E539F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19998163403457BBAAF1CB48 /* Foundation.framework */; };
-		ADAFFB7B749809D81077D117 /* Pods-jkbx-ios-MaterialKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F164EBE2DE8600B13BD5FA /* Pods-jkbx-ios-MaterialKit-dummy.m */; };
-		AF8A48F9A82653980C6FF902 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB642277E858F50A73FF0014 /* KaedeTextField.swift */; };
-		B05652E039BE31DCDD87489D /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835E4ADB818BE057EE8E2D96 /* AkiraTextField.swift */; };
-		BC21D60DE6BF792AB2F89F71 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD0B6075F125CA3D0086108 /* MKColor.swift */; };
-		CB8E6F80E80C195C88E73C47 /* Pods-jkbx-ios-TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A165EE9EB8D073A8E8D2 /* Pods-jkbx-ios-TextFieldEffects-dummy.m */; };
-		D46C166610B529B564339A5B /* Pods-jkbx-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F858D50932A9FADB2064774C /* Pods-jkbx-ios-dummy.m */; };
-		DAC7410197842F720E3B3C0C /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3966F5470C29AF26351EC836 /* MKLabel.swift */; };
-		DD91EEB1B84B44EC0FE7AC03 /* Pods-jkbx-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCD05D8C0AF82B853AE4D17 /* Pods-jkbx-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0F9E23A4A532F2D8A068467 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58375C41ADFDACC557140F /* MKTextField.swift */; };
+		07FC0A85A4719157755877FA /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407C0F60CF9A0641B5B16AA /* JiroTextField.swift */; };
+		0B00461764FBC2885AD52B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0407F749EB25017B40130F3C /* Foundation.framework */; };
+		0EDA4F28C2733A21BBC22F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0407F749EB25017B40130F3C /* Foundation.framework */; };
+		19E9ED1D5060FB074F27831D /* Pods-jkbx-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1217E735277E1697694407E8 /* Pods-jkbx-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F475130C8F1DAC636DBD005 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09CF43714C132A4A490C81 /* MKLayer.swift */; };
+		213EE754B31A05BBBB990C3F /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0651A5498F0AF00D1A0C7E4 /* HoshiTextField.swift */; };
+		3FC7767B8329E3EA291CC194 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273174B3B90B91F8D321F6 /* MKColor.swift */; };
+		46707E9FCBADB9C9BF52A75B /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357406E124657132684AF6B /* YokoTextField.swift */; };
+		491EDE81CE5ED02711A4C578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0407F749EB25017B40130F3C /* Foundation.framework */; };
+		498AC1BFE9F25A95439BCE0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0407F749EB25017B40130F3C /* Foundation.framework */; };
+		4C30B900D931FA418125DCB7 /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCFDE4812662F58CB95E13 /* MKImageView.swift */; };
+		4FE96780D11B6F4062458E26 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1168CA3C5D5E307816D837 /* AkiraTextField.swift */; };
+		50538CCBD1A0CF44C7521F3E /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23F956CEFAB82E09B34429 /* MinoruTextField.swift */; };
+		6ED96634A862D09486A71D8B /* Pods-jkbx-ios-MaterialKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BDA0841B1B8431231A195D /* Pods-jkbx-ios-MaterialKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7387277B2B5C555A01CF1FBA /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D3C62F25B03C5939D02A6 /* IsaoTextField.swift */; };
+		758DDD94D41F47D0176E5241 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577118E50DC4C4AB4E48AB0 /* MKTextField.swift */; };
+		82D8B09C65457E8BE8D18CAF /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B3ED65BF3DBFC7B01068ED /* MKButton.swift */; };
+		92E1AC07A51EAEB1DBDEA2A6 /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBF2CF7F3A15A0404BC3F9 /* MKLabel.swift */; };
+		93E0A8E632CE7A1A70D3731C /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBD836597271F75376E5B86 /* TextFieldsEffects.swift */; };
+		A3DE1543C914AD4F3D3A44A2 /* Pods-jkbx-ios-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC273E6B7804810F70D365CF /* Pods-jkbx-ios-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF91B247E480C00F46A2B8D3 /* Pods-jkbx-ios-TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D419F795DA0F5235FC5FA42 /* Pods-jkbx-ios-TextFieldEffects-dummy.m */; };
+		B0EE59C9685555ECE509BDE5 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA25A430EF537EEFA8EE2614 /* KaedeTextField.swift */; };
+		C47B73844063E65FA7DD3402 /* Pods-jkbx-ios-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E870FDC3AEA7B8AFF1BB /* Pods-jkbx-ios-SwiftyJSON-dummy.m */; };
+		C5F622AC4721B50E6316C096 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF633AA2D4216440276D0218 /* MadokaTextField.swift */; };
+		D700C02FBE94AF8FEE8DEDFA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D475978EFC95C9CEB20458F2 /* SwiftyJSON.swift */; };
+		DA920BC1ED1F9AC4ECBEA11F /* Pods-jkbx-ios-TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08547107D2359C03A21CEE8A /* Pods-jkbx-ios-TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E5A4EA9653D2489F605162 /* Pods-jkbx-ios-MaterialKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A7175AF80BC7E8D9DEDA3 /* Pods-jkbx-ios-MaterialKit-dummy.m */; };
+		F0D09A39E031D821826D61D3 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26581D46AF76760910405081 /* MKTableViewCell.swift */; };
+		F87E8C472932A3DA05CB31F2 /* Pods-jkbx-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAFD1104651C9C2B98D8097 /* Pods-jkbx-ios-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		487548564567A14B341772B9 /* PBXContainerItemProxy */ = {
+		47310E8F73D699CDFD6D0DCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8F3EC759DD5C7F5244289FA0 /* Project object */;
+			containerPortal = 06071ECEDDDB46B8EAFD6A61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A08014EDAE1846DB56B7D36A;
+			remoteGlobalIDString = 5840D8DAE01D05EDCFA00C36;
 			remoteInfo = "Pods-jkbx-ios-TextFieldEffects";
 		};
-		E1D392520220DEA8A430D384 /* PBXContainerItemProxy */ = {
+		58993AD2744102CF2B57F8F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8F3EC759DD5C7F5244289FA0 /* Project object */;
+			containerPortal = 06071ECEDDDB46B8EAFD6A61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AEFC4AE6804325D4F066B5DD;
+			remoteGlobalIDString = 2962E7CA95BC46917C3E2B9B;
+			remoteInfo = "Pods-jkbx-ios-SwiftyJSON";
+		};
+		C63B1CC7530B2E158AFDB730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06071ECEDDDB46B8EAFD6A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0002D3653110FD2919FA367A;
 			remoteInfo = "Pods-jkbx-ios-MaterialKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0363AB4267BCA6298849C48F /* Pods-jkbx-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jkbx-ios-acknowledgements.plist"; sourceTree = "<group>"; };
-		06CA7EB5CEFA5797699F14BE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0999C16CF36376172007A5A1 /* MaterialKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E58375C41ADFDACC557140F /* MKTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = Source/MKTextField.swift; sourceTree = "<group>"; };
-		19998163403457BBAAF1CB48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1FD5228E01423E30C8B92746 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		287E4FBC9E8BC945AA919822 /* Pods-jkbx-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jkbx-ios-resources.sh"; sourceTree = "<group>"; };
-		2B616758D69E00F0BF57ACEC /* Pods-jkbx-ios-MaterialKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-MaterialKit-prefix.pch"; sourceTree = "<group>"; };
-		2CBE93B244FAAF82F1B90E38 /* MKLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLayer.swift; path = Source/MKLayer.swift; sourceTree = "<group>"; };
-		3361CA3AB4C9F3743E6C0B28 /* Pods-jkbx-ios-TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-TextFieldEffects.xcconfig"; sourceTree = "<group>"; };
-		3966F5470C29AF26351EC836 /* MKLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLabel.swift; path = Source/MKLabel.swift; sourceTree = "<group>"; };
-		3C9C6AA2E19754D1B7A2DF80 /* Pods-jkbx-ios-TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		42F164EBE2DE8600B13BD5FA /* Pods-jkbx-ios-MaterialKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-MaterialKit-dummy.m"; sourceTree = "<group>"; };
-		43467DB6E683346D98A14627 /* MKTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTableViewCell.swift; path = Source/MKTableViewCell.swift; sourceTree = "<group>"; };
-		5460A4DA19105ACA2BF14E3B /* Pods-jkbx-ios-MaterialKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-MaterialKit.xcconfig"; sourceTree = "<group>"; };
-		55C9DD40511EB6E4D12B7551 /* Pods_jkbx_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jkbx_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56CC811E84A29B69D34B3976 /* Pods-jkbx-ios-MaterialKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-MaterialKit-umbrella.h"; sourceTree = "<group>"; };
-		5B5078FBB6B7DFC36F184157 /* Pods-jkbx-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jkbx-ios-frameworks.sh"; sourceTree = "<group>"; };
-		5FAD3137E2AA09333DE39B39 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-MaterialKit-Private.xcconfig"; sourceTree = "<group>"; };
-		6BD6CBCB0A5E20C7CDA0808E /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
-		835E4ADB818BE057EE8E2D96 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		87012D141AAA6D9DE969FAB4 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		87E9A165EE9EB8D073A8E8D2 /* Pods-jkbx-ios-TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		8848342F188CE09F2C402115 /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-TextFieldEffects-Private.xcconfig"; sourceTree = "<group>"; };
-		8B93100D1960890132ABB101 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CACEA47653A773B978D701D /* Pods-jkbx-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		8F60FCF5C5AD4F9E5A2E04A1 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		97B05A6A44F5F2CCB3BB3550 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0569F2F1032B6CF621424DA /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		AEE9B9B031C03874C5124FDD /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		B49EEF56B7EC1A0AF16000A8 /* MKButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKButton.swift; path = Source/MKButton.swift; sourceTree = "<group>"; };
-		B966E7A4886FD692E879E571 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC77CCD7D10C6E44FDC3B58B /* Pods-jkbx-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios.release.xcconfig"; sourceTree = "<group>"; };
-		D0570A2CF24BCE20AE7A4CD1 /* Pods-jkbx-ios-MaterialKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios-MaterialKit.modulemap"; sourceTree = "<group>"; };
-		DB642277E858F50A73FF0014 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		DFCD05D8C0AF82B853AE4D17 /* Pods-jkbx-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-umbrella.h"; sourceTree = "<group>"; };
-		E8B1D92E796CF2B5DFAD86F8 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAD0B6075F125CA3D0086108 /* MKColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKColor.swift; path = Source/MKColor.swift; sourceTree = "<group>"; };
-		EDDF5C5D0A2DAC44612C6B8C /* Pods-jkbx-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios.modulemap"; sourceTree = "<group>"; };
-		F25E6877D6B9072D8219664B /* Pods-jkbx-ios-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-environment.h"; sourceTree = "<group>"; };
-		F5B92F791E2845F386B50E62 /* Pods-jkbx-ios-TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios-TextFieldEffects.modulemap"; sourceTree = "<group>"; };
-		F5D8CCEB3C9AF31C7FD2CE2B /* Pods-jkbx-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jkbx-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F858D50932A9FADB2064774C /* Pods-jkbx-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-dummy.m"; sourceTree = "<group>"; };
-		F8C16ACBB7C919F8EA91E037 /* Pods-jkbx-ios-TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		FBCC60C3985C26B3F8F9BD1C /* MKImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageView.swift; path = Source/MKImageView.swift; sourceTree = "<group>"; };
-		FE583951C11003FAB2151883 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		0407C0F60CF9A0641B5B16AA /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		0407F749EB25017B40130F3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		04BDA0841B1B8431231A195D /* Pods-jkbx-ios-MaterialKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-MaterialKit-umbrella.h"; sourceTree = "<group>"; };
+		0683A1B60380E7A944061F3D /* Pods-jkbx-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jkbx-ios-resources.sh"; sourceTree = "<group>"; };
+		08547107D2359C03A21CEE8A /* Pods-jkbx-ios-TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		0DAF7D3D929FCC17C469354A /* Pods-jkbx-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios.modulemap"; sourceTree = "<group>"; };
+		1217E735277E1697694407E8 /* Pods-jkbx-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-umbrella.h"; sourceTree = "<group>"; };
+		16B4E870FDC3AEA7B8AFF1BB /* Pods-jkbx-ios-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		2357406E124657132684AF6B /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		2630DB692E881917548EB571 /* Pods-jkbx-ios-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		26581D46AF76760910405081 /* MKTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTableViewCell.swift; path = Source/MKTableViewCell.swift; sourceTree = "<group>"; };
+		2A2A7175AF80BC7E8D9DEDA3 /* Pods-jkbx-ios-MaterialKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-MaterialKit-dummy.m"; sourceTree = "<group>"; };
+		2C943A49F309839D6ECD6459 /* Pods-jkbx-ios-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		2D8E41FC0DF7E2F4CC347A8A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		354D99B312C6899725655311 /* Pods-jkbx-ios-MaterialKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios-MaterialKit.modulemap"; sourceTree = "<group>"; };
+		3577118E50DC4C4AB4E48AB0 /* MKTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = Source/MKTextField.swift; sourceTree = "<group>"; };
+		38FCFDE4812662F58CB95E13 /* MKImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageView.swift; path = Source/MKImageView.swift; sourceTree = "<group>"; };
+		3A58F520111052392F483158 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E24048F0CE8D31EB5F3D4C /* Pods-jkbx-ios-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-environment.h"; sourceTree = "<group>"; };
+		4604491DBB02B7368C8FA771 /* Pods-jkbx-ios-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		47E6BFCF695A91C2F1AD4AE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555639AF167872143A36C2BB /* Pods-jkbx-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jkbx-ios-frameworks.sh"; sourceTree = "<group>"; };
+		5D419F795DA0F5235FC5FA42 /* Pods-jkbx-ios-TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		5EBD836597271F75376E5B86 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		6CCBF2CF7F3A15A0404BC3F9 /* MKLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLabel.swift; path = Source/MKLabel.swift; sourceTree = "<group>"; };
+		73C63DDBE14B633D4A6F5B14 /* Pods-jkbx-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jkbx-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E09CF43714C132A4A490C81 /* MKLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLayer.swift; path = Source/MKLayer.swift; sourceTree = "<group>"; };
+		98FE0492BA5B3BDCBE5D11E9 /* MaterialKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2D3C62F25B03C5939D02A6 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		A0A3CB430D6B0CCE0AACF95E /* Pods-jkbx-ios-TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		A2447F4997A39199EE6F219E /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-TextFieldEffects-Private.xcconfig"; sourceTree = "<group>"; };
+		A5467E68961E464F6DB6BFF1 /* Pods-jkbx-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		AC273E6B7804810F70D365CF /* Pods-jkbx-ios-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		AF633AA2D4216440276D0218 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		B11AE788517B3A3FC59BA2BA /* Pods-jkbx-ios-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BBB5AED46C43539BB637B1F3 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC661E863C6F8CAB13BF5340 /* Pods_jkbx_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jkbx_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEDFEF16C68B2032352DAE8 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-MaterialKit-Private.xcconfig"; sourceTree = "<group>"; };
+		CA25A430EF537EEFA8EE2614 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		CC1168CA3C5D5E307816D837 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		D475978EFC95C9CEB20458F2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		D79A3E2EA5E04C26D6C891CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09990F857090EAB8316DD8E /* Pods-jkbx-ios-TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-jkbx-ios-TextFieldEffects.modulemap"; sourceTree = "<group>"; };
+		E4273174B3B90B91F8D321F6 /* MKColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKColor.swift; path = Source/MKColor.swift; sourceTree = "<group>"; };
+		E5B3ED65BF3DBFC7B01068ED /* MKButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKButton.swift; path = Source/MKButton.swift; sourceTree = "<group>"; };
+		E79250BD39B895B315D12D61 /* Pods-jkbx-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E8E665A64616E2204F5E424F /* Pods-jkbx-ios-MaterialKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jkbx-ios-MaterialKit-prefix.pch"; sourceTree = "<group>"; };
+		E98AF71316ABF0EB990599AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC620875663A036F2014F22A /* Pods-jkbx-ios-TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-TextFieldEffects.xcconfig"; sourceTree = "<group>"; };
+		ECC5F5E82BB3AF5E992AE104 /* Pods-jkbx-ios-MaterialKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jkbx-ios-MaterialKit.xcconfig"; sourceTree = "<group>"; };
+		EE23F956CEFAB82E09B34429 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		F0651A5498F0AF00D1A0C7E4 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		F4B95792A3940CB2D62EB400 /* Pods-jkbx-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jkbx-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA7D9A197A26ADEB46B31A11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAFD1104651C9C2B98D8097 /* Pods-jkbx-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jkbx-ios-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F57095B420D24F4981CD205 /* Frameworks */ = {
+		6076AC41B4A0948CE2AB1FA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C6E1B4E88C087A5E539F03 /* Foundation.framework in Frameworks */,
+				491EDE81CE5ED02711A4C578 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8260BB59C39C6D0F9ECCF492 /* Frameworks */ = {
+		8FE9E783515B31AB5FCF19FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D46C6C98713983EBE758572 /* Foundation.framework in Frameworks */,
+				0EDA4F28C2733A21BBC22F6A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A87FFD6C63BA36902EDB70B /* Frameworks */ = {
+		D68D5DFC31346932EBA6632C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49344D64FD5C61CD4E075348 /* Foundation.framework in Frameworks */,
+				0B00461764FBC2885AD52B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4DA8DB8E2098D1943D0DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498AC1BFE9F25A95439BCE0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		186CAEC64FC1DCA5BB0CDBBC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				97B05A6A44F5F2CCB3BB3550 /* Info.plist */,
-				D0570A2CF24BCE20AE7A4CD1 /* Pods-jkbx-ios-MaterialKit.modulemap */,
-				5460A4DA19105ACA2BF14E3B /* Pods-jkbx-ios-MaterialKit.xcconfig */,
-				5FAD3137E2AA09333DE39B39 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */,
-				42F164EBE2DE8600B13BD5FA /* Pods-jkbx-ios-MaterialKit-dummy.m */,
-				2B616758D69E00F0BF57ACEC /* Pods-jkbx-ios-MaterialKit-prefix.pch */,
-				56CC811E84A29B69D34B3976 /* Pods-jkbx-ios-MaterialKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-jkbx-ios-MaterialKit";
-			sourceTree = "<group>";
-		};
-		283FB3AEBC07084AE62B2BB6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				93CCF571FE9B49C471262870 /* Firebase */,
-				4DBC20E9180A48F392E5EBBD /* MaterialKit */,
-				9AF6613DF1EF987FF3354057 /* TextFieldEffects */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		427CA02E46F06F832057C119 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B966E7A4886FD692E879E571 /* Info.plist */,
-				F5B92F791E2845F386B50E62 /* Pods-jkbx-ios-TextFieldEffects.modulemap */,
-				3361CA3AB4C9F3743E6C0B28 /* Pods-jkbx-ios-TextFieldEffects.xcconfig */,
-				8848342F188CE09F2C402115 /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */,
-				87E9A165EE9EB8D073A8E8D2 /* Pods-jkbx-ios-TextFieldEffects-dummy.m */,
-				3C9C6AA2E19754D1B7A2DF80 /* Pods-jkbx-ios-TextFieldEffects-prefix.pch */,
-				F8C16ACBB7C919F8EA91E037 /* Pods-jkbx-ios-TextFieldEffects-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-jkbx-ios-TextFieldEffects";
-			sourceTree = "<group>";
-		};
-		4DBC20E9180A48F392E5EBBD /* MaterialKit */ = {
-			isa = PBXGroup;
-			children = (
-				B49EEF56B7EC1A0AF16000A8 /* MKButton.swift */,
-				EAD0B6075F125CA3D0086108 /* MKColor.swift */,
-				FBCC60C3985C26B3F8F9BD1C /* MKImageView.swift */,
-				3966F5470C29AF26351EC836 /* MKLabel.swift */,
-				2CBE93B244FAAF82F1B90E38 /* MKLayer.swift */,
-				43467DB6E683346D98A14627 /* MKTableViewCell.swift */,
-				0E58375C41ADFDACC557140F /* MKTextField.swift */,
-				186CAEC64FC1DCA5BB0CDBBC /* Support Files */,
-			);
-			path = MaterialKit;
-			sourceTree = "<group>";
-		};
-		508ABEEDCDACB7A7BE274383 /* Pods-jkbx-ios */ = {
-			isa = PBXGroup;
-			children = (
-				8B93100D1960890132ABB101 /* Info.plist */,
-				EDDF5C5D0A2DAC44612C6B8C /* Pods-jkbx-ios.modulemap */,
-				F5D8CCEB3C9AF31C7FD2CE2B /* Pods-jkbx-ios-acknowledgements.markdown */,
-				0363AB4267BCA6298849C48F /* Pods-jkbx-ios-acknowledgements.plist */,
-				F858D50932A9FADB2064774C /* Pods-jkbx-ios-dummy.m */,
-				F25E6877D6B9072D8219664B /* Pods-jkbx-ios-environment.h */,
-				5B5078FBB6B7DFC36F184157 /* Pods-jkbx-ios-frameworks.sh */,
-				287E4FBC9E8BC945AA919822 /* Pods-jkbx-ios-resources.sh */,
-				DFCD05D8C0AF82B853AE4D17 /* Pods-jkbx-ios-umbrella.h */,
-				8CACEA47653A773B978D701D /* Pods-jkbx-ios.debug.xcconfig */,
-				CC77CCD7D10C6E44FDC3B58B /* Pods-jkbx-ios.release.xcconfig */,
-			);
-			name = "Pods-jkbx-ios";
-			path = "Target Support Files/Pods-jkbx-ios";
-			sourceTree = "<group>";
-		};
-		854E8D8A8A516E0F88049295 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0999C16CF36376172007A5A1 /* MaterialKit.framework */,
-				55C9DD40511EB6E4D12B7551 /* Pods_jkbx_ios.framework */,
-				E8B1D92E796CF2B5DFAD86F8 /* TextFieldEffects.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		93CCF571FE9B49C471262870 /* Firebase */ = {
+		0016196AEA507C2B94A22120 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Firebase;
 			sourceTree = "<group>";
 		};
-		998201AF81B40C66B7FB61D2 /* iOS */ = {
+		048CF3780655EA3F0D60D66E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				19998163403457BBAAF1CB48 /* Foundation.framework */,
+				FA7D9A197A26ADEB46B31A11 /* Info.plist */,
+				354D99B312C6899725655311 /* Pods-jkbx-ios-MaterialKit.modulemap */,
+				ECC5F5E82BB3AF5E992AE104 /* Pods-jkbx-ios-MaterialKit.xcconfig */,
+				BFEDFEF16C68B2032352DAE8 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */,
+				2A2A7175AF80BC7E8D9DEDA3 /* Pods-jkbx-ios-MaterialKit-dummy.m */,
+				E8E665A64616E2204F5E424F /* Pods-jkbx-ios-MaterialKit-prefix.pch */,
+				04BDA0841B1B8431231A195D /* Pods-jkbx-ios-MaterialKit-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-jkbx-ios-MaterialKit";
 			sourceTree = "<group>";
 		};
-		9AF6613DF1EF987FF3354057 /* TextFieldEffects */ = {
+		1948162224329299D4B6375A = {
 			isa = PBXGroup;
 			children = (
-				835E4ADB818BE057EE8E2D96 /* AkiraTextField.swift */,
-				A0569F2F1032B6CF621424DA /* HoshiTextField.swift */,
-				AEE9B9B031C03874C5124FDD /* IsaoTextField.swift */,
-				8F60FCF5C5AD4F9E5A2E04A1 /* JiroTextField.swift */,
-				DB642277E858F50A73FF0014 /* KaedeTextField.swift */,
-				FE583951C11003FAB2151883 /* MadokaTextField.swift */,
-				87012D141AAA6D9DE969FAB4 /* MinoruTextField.swift */,
-				6BD6CBCB0A5E20C7CDA0808E /* TextFieldsEffects.swift */,
-				1FD5228E01423E30C8B92746 /* YokoTextField.swift */,
-				427CA02E46F06F832057C119 /* Support Files */,
+				2D8E41FC0DF7E2F4CC347A8A /* Podfile */,
+				2C2396C23131A05F0CA7C46E /* Frameworks */,
+				70C1C33F1733770E2B364FCF /* Pods */,
+				59A2AC5FD3E1A900AE5B1C34 /* Products */,
+				36FC102FCA8175BA0F80F693 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDBA3F84CEB086C44B03F85 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				CC1168CA3C5D5E307816D837 /* AkiraTextField.swift */,
+				F0651A5498F0AF00D1A0C7E4 /* HoshiTextField.swift */,
+				9F2D3C62F25B03C5939D02A6 /* IsaoTextField.swift */,
+				0407C0F60CF9A0641B5B16AA /* JiroTextField.swift */,
+				CA25A430EF537EEFA8EE2614 /* KaedeTextField.swift */,
+				AF633AA2D4216440276D0218 /* MadokaTextField.swift */,
+				EE23F956CEFAB82E09B34429 /* MinoruTextField.swift */,
+				5EBD836597271F75376E5B86 /* TextFieldsEffects.swift */,
+				2357406E124657132684AF6B /* YokoTextField.swift */,
+				E6038BCD146750247FC2B70E /* Support Files */,
 			);
 			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
-		CCCC5C7FB31428A9F4FA1BDD /* Frameworks */ = {
+		2C2396C23131A05F0CA7C46E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				998201AF81B40C66B7FB61D2 /* iOS */,
+				D1BDA8899E19E49D6C614129 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB20A29580C2D09526A14980 /* Targets Support Files */ = {
+		32AC901C357AAFF66B328F6E /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				508ABEEDCDACB7A7BE274383 /* Pods-jkbx-ios */,
+				D475978EFC95C9CEB20458F2 /* SwiftyJSON.swift */,
+				94B49FE5DBF20777A14A3EA8 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		34AAC8C613854D49128BCCFB /* Pods-jkbx-ios */ = {
+			isa = PBXGroup;
+			children = (
+				47E6BFCF695A91C2F1AD4AE4 /* Info.plist */,
+				0DAF7D3D929FCC17C469354A /* Pods-jkbx-ios.modulemap */,
+				F4B95792A3940CB2D62EB400 /* Pods-jkbx-ios-acknowledgements.markdown */,
+				73C63DDBE14B633D4A6F5B14 /* Pods-jkbx-ios-acknowledgements.plist */,
+				FDAFD1104651C9C2B98D8097 /* Pods-jkbx-ios-dummy.m */,
+				40E24048F0CE8D31EB5F3D4C /* Pods-jkbx-ios-environment.h */,
+				555639AF167872143A36C2BB /* Pods-jkbx-ios-frameworks.sh */,
+				0683A1B60380E7A944061F3D /* Pods-jkbx-ios-resources.sh */,
+				1217E735277E1697694407E8 /* Pods-jkbx-ios-umbrella.h */,
+				A5467E68961E464F6DB6BFF1 /* Pods-jkbx-ios.debug.xcconfig */,
+				E79250BD39B895B315D12D61 /* Pods-jkbx-ios.release.xcconfig */,
+			);
+			name = "Pods-jkbx-ios";
+			path = "Target Support Files/Pods-jkbx-ios";
+			sourceTree = "<group>";
+		};
+		36FC102FCA8175BA0F80F693 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34AAC8C613854D49128BCCFB /* Pods-jkbx-ios */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FAA92FBE1F6894C9D6AE684E = {
+		59A2AC5FD3E1A900AE5B1C34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06CA7EB5CEFA5797699F14BE /* Podfile */,
-				CCCC5C7FB31428A9F4FA1BDD /* Frameworks */,
-				283FB3AEBC07084AE62B2BB6 /* Pods */,
-				854E8D8A8A516E0F88049295 /* Products */,
-				DB20A29580C2D09526A14980 /* Targets Support Files */,
+				98FE0492BA5B3BDCBE5D11E9 /* MaterialKit.framework */,
+				BC661E863C6F8CAB13BF5340 /* Pods_jkbx_ios.framework */,
+				3A58F520111052392F483158 /* SwiftyJSON.framework */,
+				BBB5AED46C43539BB637B1F3 /* TextFieldEffects.framework */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C1C33F1733770E2B364FCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0016196AEA507C2B94A22120 /* Firebase */,
+				B7F8E5565B3F84092253D7F0 /* MaterialKit */,
+				32AC901C357AAFF66B328F6E /* SwiftyJSON */,
+				1DDBA3F84CEB086C44B03F85 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94B49FE5DBF20777A14A3EA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E98AF71316ABF0EB990599AA /* Info.plist */,
+				2C943A49F309839D6ECD6459 /* Pods-jkbx-ios-SwiftyJSON.modulemap */,
+				4604491DBB02B7368C8FA771 /* Pods-jkbx-ios-SwiftyJSON.xcconfig */,
+				2630DB692E881917548EB571 /* Pods-jkbx-ios-SwiftyJSON-Private.xcconfig */,
+				16B4E870FDC3AEA7B8AFF1BB /* Pods-jkbx-ios-SwiftyJSON-dummy.m */,
+				B11AE788517B3A3FC59BA2BA /* Pods-jkbx-ios-SwiftyJSON-prefix.pch */,
+				AC273E6B7804810F70D365CF /* Pods-jkbx-ios-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-jkbx-ios-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B7F8E5565B3F84092253D7F0 /* MaterialKit */ = {
+			isa = PBXGroup;
+			children = (
+				E5B3ED65BF3DBFC7B01068ED /* MKButton.swift */,
+				E4273174B3B90B91F8D321F6 /* MKColor.swift */,
+				38FCFDE4812662F58CB95E13 /* MKImageView.swift */,
+				6CCBF2CF7F3A15A0404BC3F9 /* MKLabel.swift */,
+				8E09CF43714C132A4A490C81 /* MKLayer.swift */,
+				26581D46AF76760910405081 /* MKTableViewCell.swift */,
+				3577118E50DC4C4AB4E48AB0 /* MKTextField.swift */,
+				048CF3780655EA3F0D60D66E /* Support Files */,
+			);
+			path = MaterialKit;
+			sourceTree = "<group>";
+		};
+		D1BDA8899E19E49D6C614129 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0407F749EB25017B40130F3C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6038BCD146750247FC2B70E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79A3E2EA5E04C26D6C891CD /* Info.plist */,
+				E09990F857090EAB8316DD8E /* Pods-jkbx-ios-TextFieldEffects.modulemap */,
+				EC620875663A036F2014F22A /* Pods-jkbx-ios-TextFieldEffects.xcconfig */,
+				A2447F4997A39199EE6F219E /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */,
+				5D419F795DA0F5235FC5FA42 /* Pods-jkbx-ios-TextFieldEffects-dummy.m */,
+				A0A3CB430D6B0CCE0AACF95E /* Pods-jkbx-ios-TextFieldEffects-prefix.pch */,
+				08547107D2359C03A21CEE8A /* Pods-jkbx-ios-TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-jkbx-ios-TextFieldEffects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18DC265C5690B0DCCF202E06 /* Headers */ = {
+		6CAE282D579973D13E35894F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF58EE055F45F2C47ED7746 /* Pods-jkbx-ios-MaterialKit-umbrella.h in Headers */,
+				A3DE1543C914AD4F3D3A44A2 /* Pods-jkbx-ios-SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BE14EC100D2B6F1BD54080C /* Headers */ = {
+		A1DF15A9EF7B2BB8DF6CB821 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD91EEB1B84B44EC0FE7AC03 /* Pods-jkbx-ios-umbrella.h in Headers */,
+				6ED96634A862D09486A71D8B /* Pods-jkbx-ios-MaterialKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4C9824AB5218065867D2EB8 /* Headers */ = {
+		BDF4EFDBE1E20190E46723D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69507AA9AE967784CBB6D694 /* Pods-jkbx-ios-TextFieldEffects-umbrella.h in Headers */,
+				19E9ED1D5060FB074F27831D /* Pods-jkbx-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13BAF700B7C89F3A755485B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA920BC1ED1F9AC4ECBEA11F /* Pods-jkbx-ios-TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A08014EDAE1846DB56B7D36A /* Pods-jkbx-ios-TextFieldEffects */ = {
+		0002D3653110FD2919FA367A /* Pods-jkbx-ios-MaterialKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AFB560ECD2EB6F6AE5C46B6 /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-TextFieldEffects" */;
+			buildConfigurationList = BEBB8CB33B35703D88C4A2E5 /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-MaterialKit" */;
 			buildPhases = (
-				C86AC0FBA269F085B44FA840 /* Sources */,
-				9A87FFD6C63BA36902EDB70B /* Frameworks */,
-				C4C9824AB5218065867D2EB8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-jkbx-ios-TextFieldEffects";
-			productName = "Pods-jkbx-ios-TextFieldEffects";
-			productReference = E8B1D92E796CF2B5DFAD86F8 /* TextFieldEffects.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AEFC4AE6804325D4F066B5DD /* Pods-jkbx-ios-MaterialKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0F05408276AAC04BF9116DAE /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-MaterialKit" */;
-			buildPhases = (
-				3BFA11390532F7C04BF4D382 /* Sources */,
-				3F57095B420D24F4981CD205 /* Frameworks */,
-				18DC265C5690B0DCCF202E06 /* Headers */,
+				8E4B4BAD115D1AB8A1A1EBD8 /* Sources */,
+				D68D5DFC31346932EBA6632C /* Frameworks */,
+				A1DF15A9EF7B2BB8DF6CB821 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -332,117 +377,168 @@
 			);
 			name = "Pods-jkbx-ios-MaterialKit";
 			productName = "Pods-jkbx-ios-MaterialKit";
-			productReference = 0999C16CF36376172007A5A1 /* MaterialKit.framework */;
+			productReference = 98FE0492BA5B3BDCBE5D11E9 /* MaterialKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FD11DDC36165A5E9B640FFC6 /* Pods-jkbx-ios */ = {
+		2962E7CA95BC46917C3E2B9B /* Pods-jkbx-ios-SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F370D907A286595C47D44ADA /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios" */;
+			buildConfigurationList = E9B4E1604BDC532C216E9F0C /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-SwiftyJSON" */;
 			buildPhases = (
-				08C2F7B217AEEBB9D6426306 /* Sources */,
-				8260BB59C39C6D0F9ECCF492 /* Frameworks */,
-				9BE14EC100D2B6F1BD54080C /* Headers */,
+				E97CC57C4DD1A9E7AD372645 /* Sources */,
+				6076AC41B4A0948CE2AB1FA4 /* Frameworks */,
+				6CAE282D579973D13E35894F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BA97D78802CD628340AC99A /* PBXTargetDependency */,
-				BAA4F80B2A9BB2EB05FA70D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-jkbx-ios-SwiftyJSON";
+			productName = "Pods-jkbx-ios-SwiftyJSON";
+			productReference = 3A58F520111052392F483158 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5840D8DAE01D05EDCFA00C36 /* Pods-jkbx-ios-TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9C0E45A7434CB93E328D03 /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-TextFieldEffects" */;
+			buildPhases = (
+				2ECE561B97C36DCC66E2C6D9 /* Sources */,
+				8FE9E783515B31AB5FCF19FA /* Frameworks */,
+				E13BAF700B7C89F3A755485B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-jkbx-ios-TextFieldEffects";
+			productName = "Pods-jkbx-ios-TextFieldEffects";
+			productReference = BBB5AED46C43539BB637B1F3 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAA1582973EEDBAEC8C9EA1C /* Pods-jkbx-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C664795310AFCBF766F92F /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios" */;
+			buildPhases = (
+				89D071EEB09ED93887521491 /* Sources */,
+				EC4DA8DB8E2098D1943D0DA7 /* Frameworks */,
+				BDF4EFDBE1E20190E46723D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B75412CEF6878D9D2A8BFD4 /* PBXTargetDependency */,
+				380E32EC92FE4F1EC1F91091 /* PBXTargetDependency */,
+				63E5A878D7411146BCA21129 /* PBXTargetDependency */,
 			);
 			name = "Pods-jkbx-ios";
 			productName = "Pods-jkbx-ios";
-			productReference = 55C9DD40511EB6E4D12B7551 /* Pods_jkbx_ios.framework */;
+			productReference = BC661E863C6F8CAB13BF5340 /* Pods_jkbx_ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F3EC759DD5C7F5244289FA0 /* Project object */ = {
+		06071ECEDDDB46B8EAFD6A61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 2AC7FF30139888C3BA563779 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3B4DEC857061EA13B93DB213 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FAA92FBE1F6894C9D6AE684E;
-			productRefGroup = 854E8D8A8A516E0F88049295 /* Products */;
+			mainGroup = 1948162224329299D4B6375A;
+			productRefGroup = 59A2AC5FD3E1A900AE5B1C34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD11DDC36165A5E9B640FFC6 /* Pods-jkbx-ios */,
-				AEFC4AE6804325D4F066B5DD /* Pods-jkbx-ios-MaterialKit */,
-				A08014EDAE1846DB56B7D36A /* Pods-jkbx-ios-TextFieldEffects */,
+				CAA1582973EEDBAEC8C9EA1C /* Pods-jkbx-ios */,
+				0002D3653110FD2919FA367A /* Pods-jkbx-ios-MaterialKit */,
+				2962E7CA95BC46917C3E2B9B /* Pods-jkbx-ios-SwiftyJSON */,
+				5840D8DAE01D05EDCFA00C36 /* Pods-jkbx-ios-TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08C2F7B217AEEBB9D6426306 /* Sources */ = {
+		2ECE561B97C36DCC66E2C6D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46C166610B529B564339A5B /* Pods-jkbx-ios-dummy.m in Sources */,
+				4FE96780D11B6F4062458E26 /* AkiraTextField.swift in Sources */,
+				213EE754B31A05BBBB990C3F /* HoshiTextField.swift in Sources */,
+				7387277B2B5C555A01CF1FBA /* IsaoTextField.swift in Sources */,
+				07FC0A85A4719157755877FA /* JiroTextField.swift in Sources */,
+				B0EE59C9685555ECE509BDE5 /* KaedeTextField.swift in Sources */,
+				C5F622AC4721B50E6316C096 /* MadokaTextField.swift in Sources */,
+				50538CCBD1A0CF44C7521F3E /* MinoruTextField.swift in Sources */,
+				AF91B247E480C00F46A2B8D3 /* Pods-jkbx-ios-TextFieldEffects-dummy.m in Sources */,
+				93E0A8E632CE7A1A70D3731C /* TextFieldsEffects.swift in Sources */,
+				46707E9FCBADB9C9BF52A75B /* YokoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BFA11390532F7C04BF4D382 /* Sources */ = {
+		89D071EEB09ED93887521491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB7B8E924495D5B0104A3F1 /* MKButton.swift in Sources */,
-				BC21D60DE6BF792AB2F89F71 /* MKColor.swift in Sources */,
-				865CA29F34EE51141C4A39BE /* MKImageView.swift in Sources */,
-				DAC7410197842F720E3B3C0C /* MKLabel.swift in Sources */,
-				004B629C764F5B9F03BF1D50 /* MKLayer.swift in Sources */,
-				7B030E6F204305D493868D83 /* MKTableViewCell.swift in Sources */,
-				E0F9E23A4A532F2D8A068467 /* MKTextField.swift in Sources */,
-				ADAFFB7B749809D81077D117 /* Pods-jkbx-ios-MaterialKit-dummy.m in Sources */,
+				F87E8C472932A3DA05CB31F2 /* Pods-jkbx-ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C86AC0FBA269F085B44FA840 /* Sources */ = {
+		8E4B4BAD115D1AB8A1A1EBD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05652E039BE31DCDD87489D /* AkiraTextField.swift in Sources */,
-				094BB8CF49017D43935037BC /* HoshiTextField.swift in Sources */,
-				6C9638B83743E59ECCF1E970 /* IsaoTextField.swift in Sources */,
-				5D372AEB3CDDF7D9846A7308 /* JiroTextField.swift in Sources */,
-				AF8A48F9A82653980C6FF902 /* KaedeTextField.swift in Sources */,
-				63DCDF3F19F04269F9391530 /* MadokaTextField.swift in Sources */,
-				7C386211DE71D6767A3E0118 /* MinoruTextField.swift in Sources */,
-				CB8E6F80E80C195C88E73C47 /* Pods-jkbx-ios-TextFieldEffects-dummy.m in Sources */,
-				1EB26C0718AD9734E5860E8B /* TextFieldsEffects.swift in Sources */,
-				398E03BB1766D90B3A915D9C /* YokoTextField.swift in Sources */,
+				82D8B09C65457E8BE8D18CAF /* MKButton.swift in Sources */,
+				3FC7767B8329E3EA291CC194 /* MKColor.swift in Sources */,
+				4C30B900D931FA418125DCB7 /* MKImageView.swift in Sources */,
+				92E1AC07A51EAEB1DBDEA2A6 /* MKLabel.swift in Sources */,
+				1F475130C8F1DAC636DBD005 /* MKLayer.swift in Sources */,
+				F0D09A39E031D821826D61D3 /* MKTableViewCell.swift in Sources */,
+				758DDD94D41F47D0176E5241 /* MKTextField.swift in Sources */,
+				E5E5A4EA9653D2489F605162 /* Pods-jkbx-ios-MaterialKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97CC57C4DD1A9E7AD372645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47B73844063E65FA7DD3402 /* Pods-jkbx-ios-SwiftyJSON-dummy.m in Sources */,
+				D700C02FBE94AF8FEE8DEDFA /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BA97D78802CD628340AC99A /* PBXTargetDependency */ = {
+		380E32EC92FE4F1EC1F91091 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-jkbx-ios-MaterialKit";
-			target = AEFC4AE6804325D4F066B5DD /* Pods-jkbx-ios-MaterialKit */;
-			targetProxy = E1D392520220DEA8A430D384 /* PBXContainerItemProxy */;
+			name = "Pods-jkbx-ios-SwiftyJSON";
+			target = 2962E7CA95BC46917C3E2B9B /* Pods-jkbx-ios-SwiftyJSON */;
+			targetProxy = 58993AD2744102CF2B57F8F2 /* PBXContainerItemProxy */;
 		};
-		BAA4F80B2A9BB2EB05FA70D6 /* PBXTargetDependency */ = {
+		63E5A878D7411146BCA21129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-jkbx-ios-TextFieldEffects";
-			target = A08014EDAE1846DB56B7D36A /* Pods-jkbx-ios-TextFieldEffects */;
-			targetProxy = 487548564567A14B341772B9 /* PBXContainerItemProxy */;
+			target = 5840D8DAE01D05EDCFA00C36 /* Pods-jkbx-ios-TextFieldEffects */;
+			targetProxy = 47310E8F73D699CDFD6D0DCE /* PBXContainerItemProxy */;
+		};
+		9B75412CEF6878D9D2A8BFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-jkbx-ios-MaterialKit";
+			target = 0002D3653110FD2919FA367A /* Pods-jkbx-ios-MaterialKit */;
+			targetProxy = C63B1CC7530B2E158AFDB730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D9D2D1B941819D174BAE2D3 /* Release */ = {
+		98E9CC0CDD9ABA285732BDDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC77CCD7D10C6E44FDC3B58B /* Pods-jkbx-ios.release.xcconfig */;
+			baseConfigurationReference = BFEDFEF16C68B2032352DAE8 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -451,16 +547,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-MaterialKit/Pods-jkbx-ios-MaterialKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-MaterialKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-MaterialKit/Pods-jkbx-ios-MaterialKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_jkbx_ios;
+				PRODUCT_NAME = MaterialKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,9 +563,43 @@
 			};
 			name = Release;
 		};
-		69B916BBA9FE27BC5A5FE875 /* Debug */ = {
+		A9A9D7ED07253C72A87FB68D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FAD3137E2AA09333DE39B39 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5D058B77B7BF13E7D5ECD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEDFEF16C68B2032352DAE8 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -497,92 +625,7 @@
 			};
 			name = Debug;
 		};
-		75386F9797459B5AF50CEBBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CACEA47653A773B978D701D /* Pods-jkbx-ios.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_jkbx_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		76ABA7BD1B1F836D12D7BC8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8848342F188CE09F2C402115 /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9AFDE8B7D78C6482E96A00E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8848342F188CE09F2C402115 /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BAD1BC7A1BC233718E98F556 /* Debug */ = {
+		AE4A3172D60E08C129F83F21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,43 +664,9 @@
 			};
 			name = Debug;
 		};
-		D429979A834AEC5BF04AAA61 /* Release */ = {
+		B1EEBE0AE316957BF26BD51A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DE2A1F72AD5BC46A5EF0DCED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FAD3137E2AA09333DE39B39 /* Pods-jkbx-ios-MaterialKit-Private.xcconfig */;
+			baseConfigurationReference = A2447F4997A39199EE6F219E /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -666,14 +675,70 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-MaterialKit/Pods-jkbx-ios-MaterialKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-MaterialKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-MaterialKit/Pods-jkbx-ios-MaterialKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D465CD0BDA52441AED246872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2630DB692E881917548EB571 /* Pods-jkbx-ios-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-SwiftyJSON/Pods-jkbx-ios-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-SwiftyJSON/Pods-jkbx-ios-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE661C7CF0B55585C8CE78F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2630DB692E881917548EB571 /* Pods-jkbx-ios-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-SwiftyJSON/Pods-jkbx-ios-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-SwiftyJSON/Pods-jkbx-ios-SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MaterialKit;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -682,46 +747,141 @@
 			};
 			name = Release;
 		};
+		E122CEF57C4C521F6B34938B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2447F4997A39199EE6F219E /* Pods-jkbx-ios-TextFieldEffects-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios-TextFieldEffects/Pods-jkbx-ios-TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1C5D843BE94C460001464CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79250BD39B895B315D12D61 /* Pods-jkbx-ios.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_jkbx_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBF786DCC0C683D423EA6AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5467E68961E464F6DB6BFF1 /* Pods-jkbx-ios.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-jkbx-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_jkbx_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F05408276AAC04BF9116DAE /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-MaterialKit" */ = {
+		18C664795310AFCBF766F92F /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69B916BBA9FE27BC5A5FE875 /* Debug */,
-				DE2A1F72AD5BC46A5EF0DCED /* Release */,
+				FBF786DCC0C683D423EA6AB4 /* Debug */,
+				F1C5D843BE94C460001464CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AC7FF30139888C3BA563779 /* Build configuration list for PBXProject "Pods" */ = {
+		3B4DEC857061EA13B93DB213 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAD1BC7A1BC233718E98F556 /* Debug */,
-				D429979A834AEC5BF04AAA61 /* Release */,
+				AE4A3172D60E08C129F83F21 /* Debug */,
+				A9A9D7ED07253C72A87FB68D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AFB560ECD2EB6F6AE5C46B6 /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-TextFieldEffects" */ = {
+		6F9C0E45A7434CB93E328D03 /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76ABA7BD1B1F836D12D7BC8D /* Debug */,
-				A9AFDE8B7D78C6482E96A00E /* Release */,
+				B1EEBE0AE316957BF26BD51A /* Debug */,
+				E122CEF57C4C521F6B34938B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F370D907A286595C47D44ADA /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios" */ = {
+		BEBB8CB33B35703D88C4A2E5 /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-MaterialKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75386F9797459B5AF50CEBBC /* Debug */,
-				2D9D2D1B941819D174BAE2D3 /* Release */,
+				AA5D058B77B7BF13E7D5ECD4 /* Debug */,
+				98E9CC0CDD9ABA285732BDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B4E1604BDC532C216E9F0C /* Build configuration list for PBXNativeTarget "Pods-jkbx-ios-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D465CD0BDA52441AED246872 /* Debug */,
+				DE661C7CF0B55585C8CE78F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F3EC759DD5C7F5244289FA0 /* Project object */;
+	rootObject = 06071ECEDDDB46B8EAFD6A61 /* Project object */;
 }
