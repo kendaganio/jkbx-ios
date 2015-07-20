@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6A6979A31B53E714001E197F /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6979A21B53E714001E197F /* Track.swift */; };
 		6A920A3F1B5424D60086FFA0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A920A3E1B5424D60086FFA0 /* MainViewController.swift */; };
+		6A9245461B59763800FF05B7 /* PlayedTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9245451B59763800FF05B7 /* PlayedTracksViewController.swift */; };
 		6ACDD4721B53A2C2009BADF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD4711B53A2C2009BADF7 /* AppDelegate.swift */; };
 		6ACDD4751B53A2C2009BADF7 /* jkbx_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD4731B53A2C2009BADF7 /* jkbx_ios.xcdatamodeld */; };
 		6ACDD47A1B53A2C2009BADF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDD4781B53A2C2009BADF7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		6ACDD48B1B53A2C3009BADF7 /* jkbx_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD48A1B53A2C3009BADF7 /* jkbx_iosTests.swift */; };
 		6ACDD4951B53AB55009BADF7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD4941B53AB55009BADF7 /* HomeViewController.swift */; };
 		6ACDD4971B53B077009BADF7 /* PlaylistIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDD4961B53B077009BADF7 /* PlaylistIndexViewController.swift */; };
+		6AF5B8071B58DA9B00AA02E0 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5B8061B58DA9B00AA02E0 /* TrackTableViewCell.swift */; };
 		EEE364155AB5A85FCBEEDE75 /* Pods_jkbx_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BA2CA8CFCDEB177AC36467 /* Pods_jkbx_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,7 @@
 		2AE31F90286FA202F3634E43 /* Pods-jkbx-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jkbx-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.release.xcconfig"; sourceTree = "<group>"; };
 		6A6979A21B53E714001E197F /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		6A920A3E1B5424D60086FFA0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6A9245451B59763800FF05B7 /* PlayedTracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayedTracksViewController.swift; sourceTree = "<group>"; };
 		6ACDD46C1B53A2C2009BADF7 /* jkbx-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jkbx-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACDD4701B53A2C2009BADF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ACDD4711B53A2C2009BADF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		6ACDD4941B53AB55009BADF7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6ACDD4961B53B077009BADF7 /* PlaylistIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistIndexViewController.swift; sourceTree = "<group>"; };
 		6ACDD4981B53BC7D009BADF7 /* jkbx-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jkbx-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		6AF5B8061B58DA9B00AA02E0 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
 		70BD95CEB966BDC7DC81CB76 /* Pods-jkbx-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jkbx-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jkbx-ios/Pods-jkbx-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +100,8 @@
 				6ACDD4711B53A2C2009BADF7 /* AppDelegate.swift */,
 				6ACDD4941B53AB55009BADF7 /* HomeViewController.swift */,
 				6ACDD4961B53B077009BADF7 /* PlaylistIndexViewController.swift */,
+				6A9245451B59763800FF05B7 /* PlayedTracksViewController.swift */,
+				6AF5B8061B58DA9B00AA02E0 /* TrackTableViewCell.swift */,
 				6A920A3E1B5424D60086FFA0 /* MainViewController.swift */,
 				6A6979A21B53E714001E197F /* Track.swift */,
 				6ACDD4781B53A2C2009BADF7 /* Main.storyboard */,
@@ -303,10 +309,12 @@
 			files = (
 				6ACDD4751B53A2C2009BADF7 /* jkbx_ios.xcdatamodeld in Sources */,
 				6A6979A31B53E714001E197F /* Track.swift in Sources */,
+				6A9245461B59763800FF05B7 /* PlayedTracksViewController.swift in Sources */,
 				6ACDD4721B53A2C2009BADF7 /* AppDelegate.swift in Sources */,
 				6A920A3F1B5424D60086FFA0 /* MainViewController.swift in Sources */,
 				6ACDD4951B53AB55009BADF7 /* HomeViewController.swift in Sources */,
 				6ACDD4971B53B077009BADF7 /* PlaylistIndexViewController.swift in Sources */,
+				6AF5B8071B58DA9B00AA02E0 /* TrackTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

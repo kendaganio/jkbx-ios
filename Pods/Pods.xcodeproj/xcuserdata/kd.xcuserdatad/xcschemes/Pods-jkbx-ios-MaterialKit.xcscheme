@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A08014EDAE1846DB56B7D36A"
-               BuildableName = "TextFieldEffects.framework"
-               BlueprintName = "Pods-jkbx-ios-TextFieldEffects"
+               BlueprintIdentifier = "AEFC4AE6804325D4F066B5DD"
+               BuildableName = "MaterialKit.framework"
+               BlueprintName = "Pods-jkbx-ios-MaterialKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

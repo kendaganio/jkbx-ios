@@ -39,15 +39,17 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
             alert.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
         } else {
-            performSegueWithIdentifier("toNavigation", sender: self)
+            performSegueWithIdentifier("toMain", sender: self)
         }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let dest = segue.destinationViewController as! UINavigationController
-        let tabs = dest.viewControllers[0] as! UITabBarController
-        let playlist = tabs.viewControllers![0] as! PlaylistIndexViewController
-        
+        let tabs = segue.destinationViewController as! UITabBarController
+        let nav = tabs.viewControllers![0] as! UINavigationController
+        let playlist = nav.viewControllers![0] as! PlaylistIndexViewController
+   
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.playlist = self.playlistTextField.text
         playlist.playlistName = self.playlistTextField.text
     }
     /*

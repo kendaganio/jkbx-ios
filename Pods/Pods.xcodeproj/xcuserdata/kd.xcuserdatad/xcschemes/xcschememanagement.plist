@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-jkbx-ios-MaterialKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-jkbx-ios-TextFieldEffects.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03AEDD4D0C0E994638477E97</key>
+		<key>A08014EDAE1846DB56B7D36A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>654BD59FC5DD427FC45BC9C2</key>
+		<key>AEFC4AE6804325D4F066B5DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD11DDC36165A5E9B640FFC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

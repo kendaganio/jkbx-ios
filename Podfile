@@ -6,6 +6,7 @@ use_frameworks!
 target 'jkbx-ios' do
   pod 'Firebase'
   pod 'TextFieldEffects'
+  pod 'MaterialKit'
 end
 
 target 'jkbx-iosTests' do
