@@ -8,6 +8,7 @@ target 'jkbx-ios' do
   pod 'TextFieldEffects'
   pod 'MaterialKit'
   pod 'SwiftyJSON'
+  pod 'Alamofire'
 end
 
 target 'jkbx-iosTests' do

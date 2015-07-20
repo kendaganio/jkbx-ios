@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-jkbx-ios-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-jkbx-ios-MaterialKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>

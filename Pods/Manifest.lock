@@ -1,16 +1,19 @@
 PODS:
+  - Alamofire (1.2.3)
   - Firebase (2.3.2)
   - MaterialKit (0.3.5)
   - SwiftyJSON (2.2.0)
   - TextFieldEffects (0.4.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Firebase
   - MaterialKit
   - SwiftyJSON
   - TextFieldEffects
 
 SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
   Firebase: 02fbeacfe19970856c872321788194524f21ffed
   MaterialKit: 6f1e9382f89593df768bc0c31ded9952a6d8ad46
   SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c

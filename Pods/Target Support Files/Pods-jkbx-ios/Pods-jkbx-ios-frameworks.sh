@@ -48,11 +48,13 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Alamofire.framework'
   install_framework 'MaterialKit.framework'
   install_framework 'SwiftyJSON.framework'
   install_framework 'TextFieldEffects.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Alamofire.framework'
   install_framework 'MaterialKit.framework'
   install_framework 'SwiftyJSON.framework'
   install_framework 'TextFieldEffects.framework'
