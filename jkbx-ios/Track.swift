@@ -37,4 +37,14 @@ class Track {
         }
         return self.imgCache
     }
+    
+    func toDict() -> Dictionary<String, AnyObject> {
+        return [
+            "addedBy": "iOS",
+            "img": self.thumbnail,
+            "playing": false,
+            "title": self.title,
+            "videoId": self.id
+        ]
+    }
 }

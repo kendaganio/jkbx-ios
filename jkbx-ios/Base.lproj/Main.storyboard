@@ -393,10 +393,10 @@
             </objects>
             <point key="canvasLocation" x="1194" y="-285"/>
         </scene>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="0Oq-iA-dTA">
             <objects>
-                <viewController id="3SN-O0-jKD" sceneMemberID="viewController">
+                <viewController id="3SN-O0-jKD" customClass="SearchViewController" customModule="jkbx_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jC5-TQ-jcr"/>
                         <viewControllerLayoutGuide type="bottom" id="w3u-bb-cws"/>
@@ -408,10 +408,62 @@
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Cq9-QD-7NV">
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="3SN-O0-jKD" id="aPm-GP-1Hq"/>
+                                </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="42t-jM-jAw">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="42t-jM-jAw">
                                 <rect key="frame" x="0.0" y="108" width="600" height="443"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchResults" rowHeight="80" id="tIv-V0-R8G" customClass="TrackTableViewCell" customModule="jkbx_ios" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tIv-V0-R8G" id="7v4-sz-uwV">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yQ2-6A-rSG">
+                                                    <rect key="frame" x="8" y="8" width="60" height="63"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="cXM-jy-FPE"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="vgg-FO-flX"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="vgg-FO-flX"/>
+                                                        </mask>
+                                                    </variation>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label sdfsdf    " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rp-cF-SJv">
+                                                    <rect key="frame" x="76" y="8" width="516" height="63"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="63" id="wBM-a9-tvm"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="5rp-cF-SJv" firstAttribute="top" secondItem="7v4-sz-uwV" secondAttribute="topMargin" id="7HZ-vX-e3N"/>
+                                                <constraint firstItem="5rp-cF-SJv" firstAttribute="trailing" secondItem="7v4-sz-uwV" secondAttribute="trailingMargin" id="G8a-wA-Y8V"/>
+                                                <constraint firstItem="yQ2-6A-rSG" firstAttribute="leading" secondItem="7v4-sz-uwV" secondAttribute="leadingMargin" id="Nbq-cq-fQP"/>
+                                                <constraint firstItem="yQ2-6A-rSG" firstAttribute="bottom" secondItem="7v4-sz-uwV" secondAttribute="bottomMargin" id="WnV-Ie-Zod"/>
+                                                <constraint firstItem="5rp-cF-SJv" firstAttribute="leading" secondItem="yQ2-6A-rSG" secondAttribute="trailing" constant="8" id="b1X-5N-F7G"/>
+                                                <constraint firstItem="5rp-cF-SJv" firstAttribute="leading" secondItem="yQ2-6A-rSG" secondAttribute="trailing" constant="8" id="fLQ-hw-sYB"/>
+                                                <constraint firstItem="yQ2-6A-rSG" firstAttribute="top" secondItem="7v4-sz-uwV" secondAttribute="topMargin" id="gin-4n-Vej"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="thumbnail" destination="yQ2-6A-rSG" id="eag-Ln-dHk"/>
+                                            <outlet property="trackTitle" destination="5rp-cF-SJv" id="iay-A1-xse"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="3SN-O0-jKD" id="N3l-3i-jVd"/>
+                                    <outlet property="delegate" destination="3SN-O0-jKD" id="OxI-tT-GQ7"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -426,6 +478,10 @@
                             <constraint firstItem="42t-jM-jAw" firstAttribute="top" secondItem="Cq9-QD-7NV" secondAttribute="bottom" id="u0d-rI-R6W"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBarView" destination="Cq9-QD-7NV" id="z0y-T4-pA2"/>
+                        <outlet property="searchTableView" destination="42t-jM-jAw" id="anB-44-XLC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrb-5K-6iT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
